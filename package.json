@@ -1,0 +1,21 @@
+{
+  "name": "cursocodeceptjsmobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps",
+    "report": "codeceptjs run --reporter mochawesome",
+    "testIndividual": "npx codeceptjs run test/home.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^3.4.1",
+    "mochawesome": "^7.1.3",
+    "webdriverio": "^8.6.8"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
