@@ -1,2 +1,2 @@
 # mobileAppiumCodeceptjs
-Estrutura de codeceptjs com appium 
+Estrutura de codeceptjs com appium  --> Mobile
